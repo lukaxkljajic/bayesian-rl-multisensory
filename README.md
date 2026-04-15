@@ -13,7 +13,7 @@ Two hypotheses are tested:
 
 
 ### **H2 – Predicting Original Group Labels**
-Can Bayesian parameters predict original Q-learning group assignments?  
+2. Can Bayesian parameters predict original Q-learning group assignments?
 **Test:** Random forest classifier with inverse temperature (θ), log-likelihood (LL), BIC, probability; 5-fold stratified cross-validation.
 
 ---
@@ -23,10 +23,10 @@ Can Bayesian parameters predict original Q-learning group assignments?
 – **Files:** 
 `model_ready_data.csv` (behavioral data)
 `bestfitting.tsv` (original group labels)
-Repository: github.com/ruffgroup/multlearn
-– **Participants:** 
-62 (in behavioral modeling)
-58 (group-based analyses)
+Dataset access: [multlearn repository](https://github.com/ruffgroup/multlearn)
+– **Participants:**  
+62 (in behavioral modeling)  
+58 (group-based analyses)  
 – **Task:** 
 up to 360 trials (variable: 118–360 per participant)
 3 images × 3 sounds/tactile patterns  
@@ -96,6 +96,7 @@ Mean: 1.47
 | Asym | -220.45 | 446.8 | d = -1.50 |
 | Basic | -240.46 | 486.8 | reference |
 | Transfer | -220.56 | 447.0 | d = -1.51 |
+
 Asym and Transfer show nearly identical fit.
 Basic group performs near chance.
 
@@ -134,8 +135,9 @@ pip install -r requirements.txt
 ---
 
 ## Acknowledgements
-Data and experimental design from Bedi et al. (2025).  
-Dataset available at github.com/ruffgroup/multlearn.
+Data and experimental design from Bedi et al. (2025).
+Special thanks to Gilles de Hollander for providing access to the behavioral dataset.  
+Dataset available at [multlearn repository](https://github.com/ruffgroup/multlearn).
 
 ---
 
