@@ -47,13 +47,12 @@ up to 360 trials (variable: 118–360 per participant)
 – Initial prior: α = 1, β = 1 (uniform)  
 – Free parameter: inverse temperature (θ)  
 Interpretation:  
-Low θ → exploratory behavior
-High θ → deterministic behavior
+Low θ → exploratory behavior, high θ → deterministic behavior
 
 ### **2. Parameter Optimization**
 – Inverse temperature per participant (`minimize_scalar`, 0.01–20)  
 – Extracting cumulative group log-likelihood (LL), per-trial LL, probability  
-note: probability (exp(avg log-likelihood), interpreted as retrospective accuracy proxy
+(note: probability (exp(avg log-likelihood), interpreted as retrospective accuracy proxy)  
 – BIC: `BIC = -2*LL + 1*log(n_trials)`
 
 ### **3. Group Analysis (H1)**
