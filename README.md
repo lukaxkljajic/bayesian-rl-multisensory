@@ -8,7 +8,7 @@ The goal is to evaluate whether a probabilistic model that explicitly represents
 Two hypotheses are tested:
 
 ### **H1 – Differential Fit Across Original Groups**
-1. Do participants classified into different Q-learning groups (Basic/Asym/Transfer) show differential fit in the Bayesian model?
+1. Do participants classified into different Q-learning groups (Basic/Asym/Transfer) show differential fit in the Bayesian model?  
 **Test:** Log-likelihood and BIC compared with descriptive stats & Cohen's d. No inferential statistics were performed due to non-independent group formation.
 
 
